@@ -46,12 +46,3 @@ if authorize == 'y':
 	if isinstance(http_client,tornado.httpclient.AsyncHTTPClient):
 		http_client.fetch(request, handle_requset, **proxy_config)
 		tornado.ioloop.IOLoop.instance().start()
-
-
-
-
-
-
-
-
-
